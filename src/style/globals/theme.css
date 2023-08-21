@@ -1,0 +1,15 @@
+html {
+  --text-primary: black;
+  --text-secondary: #5a5a65;
+  --text-tertiary: #5a5a65;
+  --background: white;
+  --background-cyan: #f9fbff;
+}
+
+html.dark {
+  --text-primary: #ffffff;
+  --text-secondary: #eee;
+  --text-tertiary: #919eae;
+  --background: #131234;
+  --background-cyan: #131234;
+}/*# sourceMappingURL=theme.css.map */

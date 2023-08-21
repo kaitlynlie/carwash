@@ -1,0 +1,38 @@
+@import "./common.scss";
+
+// gap, row-gap, column-gap is not supported in IOS 14, please use the mixins instead
+@mixin column_gap($gap_value, $important: false) {
+  & > * {
+    margin-right: $gap_value if_important($important);
+    &:last-child {
+      margin-right: 0 if_important($important);
+    }
+  }
+}
+
+@mixin column_gap_reverse($gap_value, $important: false) {
+  & > * {
+    margin-right: $gap_value if_important($important);
+    &:first-child {
+      margin-right: 0 if_important($important);
+    }
+  }
+}
+
+@mixin row_gap($gap_value, $important: false) {
+  & > * {
+    margin-bottom: $gap_value if_important($important);
+    &:last-child {
+      margin-bottom: 0 if_important($important);
+    }
+  }
+}
+
+@mixin row_gap_reverse($gap_value, $important: false) {
+  & > * {
+    margin-bottom: $gap_value if_important($important);
+    &:first-child {
+      margin-bottom: 0 if_important($important);
+    }
+  }
+}

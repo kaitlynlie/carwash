@@ -1,0 +1,11 @@
+@function if_important ($important) {
+  @return #{if($important, "!important", "")};
+}
+
+@function pxToEm($px, $ref_fontSize) {
+  @return calc($px / $ref_fontSize) + em;
+}
+
+@function pxToPct($px, $ref_fontSize) {
+  @return calc($px / $ref_fontSize * 100%);
+}

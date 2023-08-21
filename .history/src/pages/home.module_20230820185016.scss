@@ -1,0 +1,70 @@
+@import "../style/utils/common.scss";
+@import "../style/utils/gap.scss";
+
+nav.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    margin-top: pxToEm(31, 32);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .img {
+      width: 91px;
+      height: 97px;
+      @media (max-width: 1023.9px) {
+        width: 41.8px;
+        height: 41.8px;
+      }
+    }
+    h1.heading {
+      color: var(--text-primary);
+      font-size: 32px;
+      margin-left: pxToEm(20, 32);
+      font-weight: 700;
+      line-height: 130%;
+      text-align: center;
+      @media (max-width: 1023.9px) {
+        font-size: 16px;
+      }
+    }
+  }
+  .components {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+  }
+  .signin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    .button {
+      border-radius: 5px;
+      background: #4A8ABB;
+      width: 150px;
+      height: 49px;
+    }
+  }
+}
+
+section.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .header{
+    margin-top: 196px;
+    margin-left: 83px;
+  }
+  .image {
+    margin-right: 83px;;
+  }
+}

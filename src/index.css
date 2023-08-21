@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+html {
+  --text-primary: black;
+  --text-secondary: #5a5a65;
+  --text-tertiary: #5a5a65;
+  --background: white;
+  --background-cyan: #f9fbff;
+}
+
+html.dark {
+  --text-primary: #ffffff;
+  --text-secondary: #eee;
+  --text-tertiary: #919eae;
+  --background: #131234;
+  --background-cyan: #131234;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --switch-bg: #727e97;
+  --switch-circle-bg: #2873e2;
+  --switch-circle-pos: -4px;
+  font-family: Inter;
+}
+
+.dark {
+  --switch-bg: #203769e5;
+  --switch-circle-bg: #linear-gradient(251deg, #CF9972 0%, #EEE6E0 100%);
+  --switch-circle-pos: 28px;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#theme-switcher svg {
+  z-index: 1;
+}
+
+.app {
+  background-color: var(--background);
+}/*# sourceMappingURL=index.css.map */
