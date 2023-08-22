@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import "./style/globals/general.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --switch-bg: #727e97;
+  --switch-circle-bg: #2873e2;
+  --switch-circle-pos: -4px;
+  font-family: Inter;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.jumping-word {
+  display: inline-block;
+  animation: jump 1s infinite;
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import "./style/globals/general.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --switch-bg: #727e97;
+  --switch-circle-bg: #2873e2;
+  --switch-circle-pos: -4px;
+  font-family: Inter;
+}
+
+.dark {
+  --switch-bg: #203769e5;
+  --switch-circle-bg: #linear-gradient(251deg, #CF9972 0%, #EEE6E0 100%);
+  --switch-circle-pos: 28px;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#theme-switcher svg {
+  z-index: 1;
+}
+
+.app {
+  background-color: var(--background);
+}
