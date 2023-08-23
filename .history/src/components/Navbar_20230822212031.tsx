@@ -4,7 +4,6 @@ import clsx from 'clsx'
 import { title } from '../assets'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

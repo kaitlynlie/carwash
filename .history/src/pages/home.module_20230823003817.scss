@@ -491,42 +491,26 @@ section.testimonials {
       flex-direction: row;
       width: 1238px;
       height: 450px;
-      @media (max-width: 768px) {
-        height: 700px;
-      }
       z-index: 1;
     .container {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
-      @media (max-width: 768px) {
-        flex-direction: column;
-      }
       .signup {
         max-width: 549px;
         margin-left: 50px;
         @media (max-width: 1059px) {
           margin-left: 20px;
         }
-        @media (max-width: 768px) {
-          margin-left: 5px;
-          margin-right: 5px;
-        }
         h4 {
           margin-top: 21px;
           font-size: 40px;
-          @media (max-width: 768px) {
-            font-size: 32px;
-          }
           font-weight: 700;
           line-height: normal;
         }
         p {
           margin-top: 21px;
-          @media (max-width: 768px) {
-            font-size: 14px;
-          }
           color: #626262;
         }
         .button {

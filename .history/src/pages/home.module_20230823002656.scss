@@ -386,16 +386,13 @@ section.testimonials {
   align-items: center;
   flex-direction: column;
   background-color: #f7f6f6;
-  z-index: 10;
+  z-index: 2;
   .container {
     z-index: 2;
     h4 {
       margin-top: 51px;
       text-align: center;
       font-size: 24px;
-      @media (max-width: 768px) {
-        font-size: 16px;
-      }
       font-weight: 600;
       line-height: normal;
       }
@@ -404,17 +401,11 @@ section.testimonials {
         h2 {
         margin-top: 21px;
         font-size: 40px;
-        @media (max-width: 768px) {
-          font-size: 32px;
-        }
         font-weight: 700;
         line-height: normal;
         }
         p {
           margin-top: 21px;
-          @media (max-width: 768px) {
-            font-size: 14px;
-          }
           color: #626262;
         }
       }
@@ -436,9 +427,6 @@ section.testimonials {
             color: black;
             font-weight: 500;
             font-size: 24px;
-            @media (max-width: 768px) {
-              font-size: 20px;
-            }
             margin-left: 40px;
             margin-right: 40px;
             text-align: left;
@@ -461,9 +449,6 @@ section.testimonials {
               h4 {
                 margin-top: 5px;
                 font-size: 16px;
-                @media (max-width: 768px) {
-                  font-size: 14px;
-                }
                 font-weight: 500px;
               }
             }
@@ -491,42 +476,23 @@ section.testimonials {
       flex-direction: row;
       width: 1238px;
       height: 450px;
-      @media (max-width: 768px) {
-        height: 700px;
-      }
       z-index: 1;
     .container {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
-      @media (max-width: 768px) {
-        flex-direction: column;
-      }
       .signup {
         max-width: 549px;
         margin-left: 50px;
-        @media (max-width: 1059px) {
-          margin-left: 20px;
-        }
-        @media (max-width: 768px) {
-          margin-left: 5px;
-          margin-right: 5px;
-        }
         h4 {
           margin-top: 21px;
           font-size: 40px;
-          @media (max-width: 768px) {
-            font-size: 32px;
-          }
           font-weight: 700;
           line-height: normal;
         }
         p {
           margin-top: 21px;
-          @media (max-width: 768px) {
-            font-size: 14px;
-          }
           color: #626262;
         }
         .button {
@@ -541,9 +507,6 @@ section.testimonials {
       }
       .image {
         margin-right: 50px;
-        @media (max-width: 1059px) {
-          margin-right: 5px;
-        }
         img {
           max-width: 549px;
           max-height: 460px;
