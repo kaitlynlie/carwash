@@ -101,6 +101,9 @@ section.hero {
   justify-content: space-between;
   align-items: center;
   .header{
+    @media (max-width: 360px) {
+      flex-direction: column;
+    }
     margin-left: 83px;
     @media (max-width: 1000px) {
       margin-left: 20px;

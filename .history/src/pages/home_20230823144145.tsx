@@ -76,6 +76,7 @@ function Hero() {
         <h4>Nice, clean, and shiny!</h4>
         <h2>Save big with our all new <span>membership deals!</span></h2>
         <p>With unbeatable prices and unlimited washes, we'll give you the shiniest car wash and onto the road quickly. </p>
+        <div className={clsx(styles.buttons)}>
           <button 
             type="button"
             className={clsx(styles.button)}>
@@ -86,6 +87,7 @@ function Hero() {
             className={clsx(styles.learn)}>
             Learn More
           </button>
+        </div>
       </div>
 
       <div className={clsx(styles.image)}>

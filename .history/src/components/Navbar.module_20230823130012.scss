@@ -9,7 +9,7 @@ nav.navbar {
     justify-content: space-between;
     z-index: 10;
     .logo {
-      margin-top: 2px;
+      margin-top: 5px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -45,9 +45,6 @@ nav.navbar {
       line-height: 130%;
       z-index: 10;
       cursor: pointer;
-      @media (max-width: 1156px) {
-        display: none;
-      }
       .button {
         border-radius: 5px;
         background: #184171;
@@ -56,44 +53,6 @@ nav.navbar {
         color: white;
         margin-right: 5px;
         z-index: 10;
-      }
-    }
-    .toggle {
-      position: relative;
-      cursor: pointer;
-      z-index: 10;
-      display: none;
-      margin-left: 20px;
-      margin-right: 5px;
-      @media (max-width: 1156px) {
-        display: block;
-      }
-      .box {
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        flex-direction: column;
-        text-align: end;
-        background-color: #184171c9;
-        padding: 16px;
-        position: absolute;
-        top: 40px;
-        right: 10px;
-        border-radius: 5px;
-        box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
-        z-index: 10;
-        .dropdown {
-          display: flex;
-          justify-content: flex-end;
-          align-items: flex-end;
-          flex-direction: column;
-          color: white;
-          text-align: end;
-          padding: 1px;
-          li {
-            margin-top: 8px;
-          }
-        }
       }
     }
   }

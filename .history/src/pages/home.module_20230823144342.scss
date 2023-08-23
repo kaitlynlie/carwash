@@ -93,7 +93,7 @@ section.hero {
   margin-top: 81px;
   display: flex;
   flex-direction: row;
-  @media (max-width: 1000px) {
+  @media (max-width: 938px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -102,7 +102,7 @@ section.hero {
   align-items: center;
   .header{
     margin-left: 83px;
-    @media (max-width: 1000px) {
+    @media (max-width: 938px) {
       margin-left: 20px;
       margin-right: 20px;
     }
@@ -151,7 +151,7 @@ section.hero {
       width: 150px;
       height: 49px;
       color: white;
-      @media (max-width: 360px) {
+      @media (max-width: 347px) {
         margin-left: 0px;
       }
     }
@@ -159,7 +159,7 @@ section.hero {
   .image {
     margin-right: 83px;
     max-width: 880px;
-    @media (max-width: 1000px) {
+    @media (max-width: 938px) {
       margin-top: 42px;
       margin-left: 20px;
       margin-right: 20px;

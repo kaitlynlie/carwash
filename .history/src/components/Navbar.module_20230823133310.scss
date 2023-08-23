@@ -9,7 +9,7 @@ nav.navbar {
     justify-content: space-between;
     z-index: 10;
     .logo {
-      margin-top: 2px;
+      margin-top: 5px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -63,7 +63,6 @@ nav.navbar {
       cursor: pointer;
       z-index: 10;
       display: none;
-      margin-left: 20px;
       margin-right: 5px;
       @media (max-width: 1156px) {
         display: block;
@@ -74,7 +73,7 @@ nav.navbar {
         align-items: flex-end;
         flex-direction: column;
         text-align: end;
-        background-color: #184171c9;
+        background-color: #184171;
         padding: 16px;
         position: absolute;
         top: 40px;

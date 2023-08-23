@@ -133,26 +133,29 @@ section.hero {
       }
       color: #626262;
     }
-    .button {
-      margin-top: 31px;
-      font-weight: 600;
-      border-radius: 5px;
-      background: #184171;
-      width: 150px;
-      height: 49px;
-      color: white;
-    }
-    .learn {
-      margin-top: 31px;
-      margin-left: 21px;
-      font-weight: 600;
-      border-radius: 5px;
-      background: black;
-      width: 150px;
-      height: 49px;
-      color: white;
-      @media (max-width: 360px) {
-        margin-left: 0px;
+    .buttons {
+      gap: 20px;
+      .button {
+        margin-top: 31px;
+        font-weight: 600;
+        border-radius: 5px;
+        background: #184171;
+        width: 150px;
+        height: 49px;
+        color: white;
+      }
+      .learn {
+        margin-top: 31px;
+        margin-left: 21px;
+        font-weight: 600;
+        border-radius: 5px;
+        background: black;
+        width: 150px;
+        height: 49px;
+        color: white;
+        @media (max-width: 360px) {
+          margin-left: 0px;
+        }
       }
     }
   }

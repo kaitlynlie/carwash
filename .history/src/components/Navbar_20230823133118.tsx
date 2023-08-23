@@ -55,8 +55,6 @@ const Navbar = () => {
             <Link onClick={openNav} to='faq'><li><a>FAQs</a></li></Link>
             <Link onClick={openNav} to='blog'><li><a>Blog</a></li></Link>
             <Link onClick={openNav} to='careers'><li><a>Careers</a></li></Link>
-            <li><a>Sign In</a></li>
-            <li><a>Register</a></li>
             </ul>
           </div>
         </div>

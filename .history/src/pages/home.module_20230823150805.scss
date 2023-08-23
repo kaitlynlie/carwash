@@ -152,6 +152,9 @@ section.hero {
       height: 49px;
       color: white;
       @media (max-width: 360px) {
+        margin-left: 5px;
+      }
+      @media (max-width: 344px) {
         margin-left: 0px;
       }
     }

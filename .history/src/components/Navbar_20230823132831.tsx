@@ -46,7 +46,7 @@ const Navbar = () => {
           ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
-        <div className={clsx(styles.box)}>
+        <div className="flex justify-end items-end flex-col text-end bg-[#026884ce] p-3 absolute top-[40px] right-[10px] mt-1 rounded-[5px] shadow z-10">
           <div className="none">
             <ul className={clsx(styles.dropdown)}>
             <Link onClick={openNav} to='/'><li><a>Home</a></li></Link>
@@ -55,8 +55,6 @@ const Navbar = () => {
             <Link onClick={openNav} to='faq'><li><a>FAQs</a></li></Link>
             <Link onClick={openNav} to='blog'><li><a>Blog</a></li></Link>
             <Link onClick={openNav} to='careers'><li><a>Careers</a></li></Link>
-            <li><a>Sign In</a></li>
-            <li><a>Register</a></li>
             </ul>
           </div>
         </div>
