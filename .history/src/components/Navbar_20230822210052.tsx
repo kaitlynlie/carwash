@@ -24,9 +24,9 @@ const Navbar = () => {
       <Link onClick={openNav} to='/'><li><a>Home</a></li></Link>
         <Link onClick={openNav} to='about'><li><a>About</a></li></Link>
         <Link onClick={openNav} to='membership'><li><a>Membership</a></li></Link>
-        <Link onClick={openNav} to='faq'><li><a>FAQs</a></li></Link>
-        <Link onClick={openNav} to='blog'><li><a>Blog</a></li></Link>
-        <Link onClick={openNav} to='careers'><li><a>Careers</a></li></Link>
+        <li><a>FAQs</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Careers</a></li>
       </ul>
     </div>
 

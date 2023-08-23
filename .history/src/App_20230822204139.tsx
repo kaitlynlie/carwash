@@ -1,10 +1,5 @@
 import clsx from "clsx";
 import { Home } from "./pages/home";
-import About from './pages/About'
-import Membership from "./pages/Membership";
-import FAQ from "./pages/FAQ";
-import Blog from "./pages/Blog";
-import Careers from "./pages/Careers";
 import { Navbar } from "./components";
 import { Route, Routes } from 'react-router-dom'
 import React from "react";
@@ -22,12 +17,7 @@ function App() {
           />
         <Navbar />
         <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="membership" element={<Membership />} />
-          <Route path="faq" element={<FAQ />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="careers" element={<Careers />} />
+        <Route index path="/" element={<Home />} />
       </Routes>
       </div>
     </>

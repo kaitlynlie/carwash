@@ -9,6 +9,11 @@ export function Home() {
     <>
       <div className={`px-5 ${stylesTw.flexCenter}`}>
         <div className={`${stylesTw.boxWidth}`}>
+          <img
+            src={tracks}
+            alt='tracks'
+            className={clsx(styles.tracks)}
+          />
         </div>
       </div>
       < Hero />
