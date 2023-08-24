@@ -1,0 +1,28 @@
+section.about {
+    background-color: rgba(255, 255, 255, 0.715);
+    height: 200px;
+    position: relative;
+    width: 100%;
+    .container {
+        h4 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: normal;
+            @media (max-width: 738px) {
+              font-size: 16px;
+            }
+          }
+          h2 {
+            margin-top: 21px;
+            font-size: 40px;
+            @media (max-width: 738px) {
+              font-size: 32px;
+            }
+            font-weight: 700;
+            line-height: normal;
+          }
+          span {
+            color:#184171;
+          }
+    }
+}

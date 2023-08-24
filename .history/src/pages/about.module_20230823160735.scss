@@ -1,0 +1,37 @@
+section.about {
+    .aboutimage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    }
+    .container {
+        margin-left: 83px;
+        @media (max-width: 1000px) {
+        margin-left: 20px;
+        margin-right: 20px;
+        z-index: 1;
+        }
+        h4 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: normal;
+            @media (max-width: 738px) {
+              font-size: 16px;
+            }
+          }
+          h1 {
+            margin-top: 21px;
+            font-size: 40px;
+            @media (max-width: 738px) {
+              font-size: 32px;
+            }
+            font-weight: 700;
+            color:#184171;
+            line-height: normal;
+          }
+    }
+}
