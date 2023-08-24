@@ -1,7 +1,7 @@
 import styles from "./home.module.scss";
 import { Navbar, JoinUs, Footer, Testimonials } from "../components";
 import clsx from "clsx";
-import { hero, tracks, location, bubbles, rain } from "../assets";
+import { logo, hero, tracks, location, bubbles, rain, person1, person2, member, title, facebook, linkedin, twitter, instagram } from "../assets";
 
 export function Home() {
   return (

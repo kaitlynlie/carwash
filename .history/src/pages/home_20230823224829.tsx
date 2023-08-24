@@ -1,7 +1,9 @@
 import styles from "./home.module.scss";
-import { Navbar, JoinUs, Footer, Testimonials } from "../components";
+import stylesTw, { layout } from "../style";
+import { Navbar, JoinUs } from "../components";
 import clsx from "clsx";
-import { hero, tracks, location, bubbles, rain } from "../assets";
+import { logo, hero, tracks, location, bubbles, rain, person1, person2, member, title, facebook, linkedin, twitter, instagram } from "../assets";
+import { socials } from '../constants'
 
 export function Home() {
   return (
@@ -151,4 +153,84 @@ function Memberships() {
       </div>
     </section>
   )
+}
+
+function Testimonials() {
+  return(
+    <section className={clsx(styles.testimonials)}>
+      <div className={clsx(styles.container)}>
+        <h4>REVIEWS</h4>
+        <div className={clsx(styles.title)}>
+            <h2>Testimonials by our Customers</h2>
+            <p>Our customers have experienced our service and results, and they are eager to share their positive experience with you.</p>  
+      </div>
+
+      <div className={clsx(styles.cards)}>
+        <div className={clsx(styles.card)}>
+            <h3>"Amazing wash, loved the vaccuums afterwards. Affordable, and my car was super clean afterwards. Love how there's so many locations around me!"</h3>
+                <div className={clsx(styles.customer)}>
+                 <img src={person1} />
+                    <div className={clsx(styles.text)}>
+                        <h4>Valued Customer</h4>
+                        <p>Best Pig</p>
+                    </div>
+                </div>
+        </div>
+
+        <div className={clsx(styles.card)}>
+            <h3>"I was traveling across the country and had so many bugs on my car, thank goodness for Big Bad Carwash! The staff are also super friendly and helpful."</h3>
+                <div className={clsx(styles.customer)}>
+                 <img src={person2}/>
+                    <div className={clsx(styles.text)}>
+                        <h4>Valued Customer</h4>
+                        <p>Better Pig</p>
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  )
+}
+
+function JoinUs() {
+  return(
+    <section className={clsx(styles.joinus)}>
+      <div className={clsx(styles.box)}>
+        <div className={clsx(styles.container)}>
+          <div className={clsx(styles.signup)}>
+                <h4>Become a member today!</h4>
+                <p className="text-[20px] mt-6">Sign up today for unlimited car washes and amazing service</p>  
+                <button 
+                  type="button"
+                  className={clsx(styles.button)}>
+                  Sign Up
+                </button>
+                </div>
+                <div className={clsx(styles.image)}>
+                  <img src={member} alt='member' />
+                </div>
+        </div>
+        </div>
+    </section>
+  )
+}
+
+function Footer() {
+  return(
+    <section className={clsx(styles.footer)}>
+        <div className={clsx(styles.container)}>     
+            <h4>BIG BAD CARWASH</h4>
+            <p>
+            Copyright © 2023 - 2024 Big Bad Carwash. All rights reserved.
+            </p>
+            <div className={clsx(styles.icons)}>
+              <img src={twitter}/>
+              <img src={linkedin}/>
+              <img src={facebook}/>
+              <img src={instagram}/>
+            </div>
+        </div>
+    </section>
+    )
 }

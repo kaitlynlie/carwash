@@ -1,5 +1,5 @@
 import clsx from "clsx"
-import styles from "../pages/home.module.scss"
+import styles from "./Testimonials.module.scss"
 import { person1, person2 } from '../assets'
 
 function Testimonials() {

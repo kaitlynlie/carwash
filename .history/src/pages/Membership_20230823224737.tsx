@@ -1,7 +1,7 @@
 import React from 'react'
 import clsx from 'clsx'
 import { header } from '../assets'
-import { Navbar, JoinUs, Footer, Memberships } from '../components'
+import { Navbar, JoinUs, Footer } from '../components'
 import styles from './Membership.module.scss'
 
 const Membership = () => {
@@ -13,7 +13,6 @@ const Membership = () => {
         <h1>Membership</h1>
         <h4>Home/Membership</h4>
       </div>
-      <Memberships />
       <JoinUs />
       <Footer />
     </section>

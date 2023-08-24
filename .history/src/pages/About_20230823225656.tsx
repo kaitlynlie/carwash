@@ -16,8 +16,8 @@ const About = () => {
       </div>
 
       <WhyUs />
-      {/* TODO: make reasons nicer */}
-      {/* TODO: smaller screens check */}
+      // TODO: make reasons nicer
+      // TODO: smaller screens check
       <Reasons />
       <Testimonials />
       <JoinUs />
