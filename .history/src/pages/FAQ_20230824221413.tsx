@@ -5,22 +5,9 @@ import styles from './FAQ.module.scss'
 import { Navbar, JoinUs, Footer } from '../components'
 import $ from 'jquery';
 
-// TODO: finish accordion
-
-document.addEventListener('DOMContentLoaded', () => {
-  const accordionQuestions = document.querySelectorAll('.accorditem');
-
-  accordionQuestions.forEach((question) => {
-    question.addEventListener('click', () => {
-      const accordionItem = question.parentElement;
-      if (accordionItem) {
-        accordionItem.classList.toggle('active');
-        const accordionAnswer = accordionItem.querySelector('.accorda');
-        if (accordionAnswer) {
-          accordionAnswer.style.display = accordionItem.classList.contains('active') ? 'block' : 'none';
-        }
-      }
-    });
+$(document).ready(() => {
+  $('.accordion-question').click(function() {
+    $(this).parent().toggleClass('active');
   });
 });
 
@@ -71,7 +58,7 @@ function Accordion() {
           <div className={clsx(styles.accord)}>
             <div className={clsx(styles.accorditem)}>
               <div className={clsx(styles.accordq)}>
-              What is an Unlimited Membership?
+              <h4>What is an Unlimited Membership?</h4>
               </div>
 
               <div className={clsx(styles.accorda)}>

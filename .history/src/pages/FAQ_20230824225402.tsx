@@ -8,7 +8,7 @@ import $ from 'jquery';
 // TODO: finish accordion
 
 document.addEventListener('DOMContentLoaded', () => {
-  const accordionQuestions = document.querySelectorAll('.accorditem');
+  const accordionQuestions = document.querySelectorAll('.accordq');
 
   accordionQuestions.forEach((question) => {
     question.addEventListener('click', () => {

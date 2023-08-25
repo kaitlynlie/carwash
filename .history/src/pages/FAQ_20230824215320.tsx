@@ -3,26 +3,6 @@ import clsx from 'clsx'
 import { header, faq } from '../assets'
 import styles from './FAQ.module.scss'
 import { Navbar, JoinUs, Footer } from '../components'
-import $ from 'jquery';
-
-// TODO: finish accordion
-
-document.addEventListener('DOMContentLoaded', () => {
-  const accordionQuestions = document.querySelectorAll('.accorditem');
-
-  accordionQuestions.forEach((question) => {
-    question.addEventListener('click', () => {
-      const accordionItem = question.parentElement;
-      if (accordionItem) {
-        accordionItem.classList.toggle('active');
-        const accordionAnswer = accordionItem.querySelector('.accorda');
-        if (accordionAnswer) {
-          accordionAnswer.style.display = accordionItem.classList.contains('active') ? 'block' : 'none';
-        }
-      }
-    });
-  });
-});
 
 const FAQ = () => {
   return (
@@ -68,14 +48,13 @@ function Accordion() {
         <div className={clsx(styles.oneaccord)}>
           <h2>Membership FAQs</h2>
 
-          <div className={clsx(styles.accord)}>
+          <div className={clsx(styles.accorditems)} id='accordionFlushExample'>
             <div className={clsx(styles.accorditem)}>
-              <div className={clsx(styles.accordq)}>
-              What is an Unlimited Membership?
-              </div>
-
-              <div className={clsx(styles.accorda)}>
+              <h4>What is an Unlimited Membership?</h4>
+              <div className={clsx(styles.collapse)}>
+                <div className={clsx(styles.body)}>
                 An unlimited membership lets you wash your car as often as you like at any Quick Quack location. You can purchase an unlimited membership for any of our three wash packages. An unlimited membership provides great value and is an easy way to ensure that you Don't Drive Dirty®.
+                </div>
               </div>
             </div>
           </div>

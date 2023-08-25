@@ -113,12 +113,12 @@ section.accordion {
   justify-content: flex-start;
   align-items: flex-start;
   .container {
-    display: flex;
     margin-top: 3rem;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 3rem;
     .oneaccord {
       width: 100%;
+      display: flex;
       h2 {
         font-weight: 700;
         font-size: 32px;
@@ -133,10 +133,10 @@ section.accordion {
           .accorda {
             display: none;
           }
-          .accorditem.active .accorda {
-            display: block;
-          }
         }
+      }
+      .accord.active .accorda {
+        display: block;
       }
     }
   }

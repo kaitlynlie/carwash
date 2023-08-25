@@ -37,7 +37,7 @@ section.faq {
 }
 
 section.faqs {
-  margin-top: 212px;
+  margin-top: 81px;
   display: flex;
   flex-direction: row;
   @media (max-width: 1000px) {
@@ -103,41 +103,5 @@ section.faqs {
   .image {
     max-width: 540px;
     margin-right: 83px;
-  }
-}
-
-section.accordion {
-  margin-top: 81px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  .container {
-    display: flex;
-    margin-top: 3rem;
-    flex-direction: column;
-    margin-bottom: 3rem;
-    .oneaccord {
-      width: 100%;
-      h2 {
-        font-weight: 700;
-        font-size: 32px;
-      }
-      .accord {
-        .accorditem {
-          border-bottom: 0.5px solid #202020;
-          .accordq {
-            font-weight: 600;
-            cursor: pointer;
-          }
-          .accorda {
-            display: none;
-          }
-          .accorditem.active .accorda {
-            display: block;
-          }
-        }
-      }
-    }
   }
 }

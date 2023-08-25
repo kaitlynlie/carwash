@@ -110,33 +110,19 @@ section.accordion {
   margin-top: 81px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   .container {
-    display: flex;
     margin-top: 3rem;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 3rem;
     .oneaccord {
       width: 100%;
+      display: flex;
       h2 {
+        justify-content: flex-start;
         font-weight: 700;
         font-size: 32px;
-      }
-      .accord {
-        .accorditem {
-          border-bottom: 0.5px solid #202020;
-          .accordq {
-            font-weight: 600;
-            cursor: pointer;
-          }
-          .accorda {
-            display: none;
-          }
-          .accorditem.active .accorda {
-            display: block;
-          }
-        }
       }
     }
   }

@@ -5,20 +5,14 @@ import styles from './FAQ.module.scss'
 import { Navbar, JoinUs, Footer } from '../components'
 import $ from 'jquery';
 
-// TODO: finish accordion
-
 document.addEventListener('DOMContentLoaded', () => {
-  const accordionQuestions = document.querySelectorAll('.accorditem');
+  const accordionQuestions = document.querySelectorAll('.accordq');
 
   accordionQuestions.forEach((question) => {
     question.addEventListener('click', () => {
       const accordionItem = question.parentElement;
       if (accordionItem) {
         accordionItem.classList.toggle('active');
-        const accordionAnswer = accordionItem.querySelector('.accorda');
-        if (accordionAnswer) {
-          accordionAnswer.style.display = accordionItem.classList.contains('active') ? 'block' : 'none';
-        }
       }
     });
   });
