@@ -110,7 +110,7 @@ section.reasons {
   margin-top: 81px;
   display: flex;
   flex-direction: row;
-  @media (max-width: 1100px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -119,11 +119,10 @@ section.reasons {
   align-items: center;
   .container{
     margin-right: 83px;
-    max-width: 500px;
+    max-width: 540px;
     @media (max-width: 1000px) {
       margin-left: 20px;
       margin-right: 20px;
-      max-width: 300px;
     }
     h3 {
       color:#184171;
@@ -140,21 +139,15 @@ section.reasons {
         font-size: 14px;
       }
       color: #626262;
-      &:last-child {
-        margin-bottom: 0;
-      }
       margin-bottom: 21px;
+    }
+    p::last {
+
     }
   }
 
   .image {
     max-width: 540px;
     margin-right: 83px;
-    opacity: 0.5;
-    @media (max-width: 1100px) {
-      position: absolute;
-      z-index: 0;
-      opacity: 0.1;
-    }
   }
 }

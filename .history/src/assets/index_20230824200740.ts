@@ -19,7 +19,7 @@ import clean from './clean.svg'
 import detailed from './detailed.svg'
 import guaranteed from'./guaranteed.svg'
 import reasons from './reasons.png'
-import membership from './membership.svg'
+import membership from './membership.png'
 import memreasons from './memreasons.svg'
 
 export {

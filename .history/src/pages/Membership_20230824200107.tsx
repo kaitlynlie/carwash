@@ -1,6 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
-import { header, membership, memreasons } from '../assets'
+import { header, membership } from '../assets'
 import { Navbar, JoinUs, Footer, Memberships } from '../components'
 import styles from './Membership.module.scss'
 
@@ -44,26 +44,16 @@ function WhyMem() {
 
 function Reasons() {
   return(
-    <section className={clsx(styles.reasons)}>
+    <section className={clsx(styles.whymem)}>
+
       <div className={clsx(styles.container)}>
-        <h3>1. Wash All You Want</h3>
-        <p>Customers with memberships save more money. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <h3>2. Save Money</h3>
-        <p>Customers with memberships save more money. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <h3>3. No Commitment</h3>
-        <p>Customers with memberships save more money. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <h3>4. Come In and Out</h3>
-        <p>Customers with memberships save more money. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <h3>5. Pig Plans</h3>
-        <p>Customers with memberships save more money. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h4>Nice, clean, and shiny!</h4>
+        <h2>Why choose a <span>Membership?</span></h2>
+        <p>Customers with memberships save more money. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 
       <div className={clsx(styles.image)}>
-        <img src={memreasons} alt='membership reasons' />
+        <img src={membership} alt='membership' />
       </div>
     </section>
   )

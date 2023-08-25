@@ -19,8 +19,7 @@ import clean from './clean.svg'
 import detailed from './detailed.svg'
 import guaranteed from'./guaranteed.svg'
 import reasons from './reasons.png'
-import membership from './membership.svg'
-import memreasons from './memreasons.svg'
+import membership from './membership.png'
 
 export {
     logo,
@@ -44,6 +43,5 @@ export {
     detailed,
     guaranteed,
     reasons,
-    membership,
-    memreasons
+    membership
 }

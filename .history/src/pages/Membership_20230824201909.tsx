@@ -45,6 +45,7 @@ function WhyMem() {
 function Reasons() {
   return(
     <section className={clsx(styles.reasons)}>
+
       <div className={clsx(styles.container)}>
         <h3>1. Wash All You Want</h3>
         <p>Customers with memberships save more money. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
