@@ -128,11 +128,11 @@ section.accordion {
         font-weight: 700;
         font-size: 32px;
         @media (max-width:706px) {
-          font-size: 24px;
+          font-size: 20px;
         }
       }
       .accord {
-      margin-top: 2rem;
+        margin-top: 6rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -140,9 +140,6 @@ section.accordion {
         h3 {
           font-size: 24px;
           font-weight: 600;
-          @media (max-width:706px) {
-            font-size: 20px;
-          }
           margin-bottom: 20px;
         }
         .accorditem {
@@ -177,17 +174,10 @@ section.accordion {
     transition: 0.15s ease;
     font-weight: 700;
     font-size: 22px;
-    text-align: left;
-    @media (max-width:706px) {
-      font-size: 20px;
-    }
   }
   .accorda {
     margin-top: 40px;
     font-size: 18px;
-    @media (max-width:706px) {
-      font-size: 16px;
-    }
     overflow: hidden;
     transition: 0.4s ease;
     padding: 0 4.5rem;

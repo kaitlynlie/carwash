@@ -98,30 +98,6 @@ function Accord() {
               />
             </div>
           </div>
-
-          <div className={clsx(styles.accord)}>
-            <h3>Fundraiser FAQs</h3>
-            <div className={clsx(styles.accorditem)}>
-              <Accordion
-                question="How can I apply for a fundraiser?"
-                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-              />
-            </div>
-
-            <div className={clsx(styles.accorditem)}>
-              <Accordion
-                question="What dates are available for fundraisers?"
-                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-              />
-            </div>
-
-            <div className={clsx(styles.accorditem)}>
-              <Accordion
-                question="Will the fundraiser get credit from members?"
-                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>

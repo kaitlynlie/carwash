@@ -121,18 +121,16 @@ section.accordion {
       width: 100%;
       max-width: 80rem;
       margin-right: 80px;
-      @media (max-width:1000px) {
-        margin-right: 0px;
+      @media (max-width:1302px) {
+        margin-left: 5px;
+        margin-right: 5px;
       }
       h2 {
         font-weight: 700;
         font-size: 32px;
-        @media (max-width:706px) {
-          font-size: 24px;
-        }
       }
       .accord {
-      margin-top: 2rem;
+        margin-top: 6rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -140,9 +138,6 @@ section.accordion {
         h3 {
           font-size: 24px;
           font-weight: 600;
-          @media (max-width:706px) {
-            font-size: 20px;
-          }
           margin-bottom: 20px;
         }
         .accorditem {
@@ -163,8 +158,7 @@ section.accordion {
   flex-direction: column;
   background-color: white;
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 80rem;
+  width: 80rem;
   cursor: pointer;
   .accordq {
     display: flex;
@@ -177,20 +171,12 @@ section.accordion {
     transition: 0.15s ease;
     font-weight: 700;
     font-size: 22px;
-    text-align: left;
-    @media (max-width:706px) {
-      font-size: 20px;
-    }
   }
   .accorda {
     margin-top: 40px;
     font-size: 18px;
-    @media (max-width:706px) {
-      font-size: 16px;
-    }
     overflow: hidden;
     transition: 0.4s ease;
-    padding: 0 4.5rem;
     margin-bottom: 40px;
   }
 }

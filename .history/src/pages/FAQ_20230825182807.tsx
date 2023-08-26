@@ -79,45 +79,21 @@ function Accord() {
             <h3>How Does Our Wash Work?</h3>
             <div className={clsx(styles.accorditem)}>
               <Accordion
-                question="What is the process of entering the wash?"
+                question="What is an unlimited membership?"
                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
               />
             </div>
 
             <div className={clsx(styles.accorditem)}>
               <Accordion
-                question="Will the wash damage my vehicle?"
+                question="How do I become a member?"
                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
               />
             </div>
 
             <div className={clsx(styles.accorditem)}>
               <Accordion
-                question="Is my car too big to enter the wash?"
-                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-              />
-            </div>
-          </div>
-
-          <div className={clsx(styles.accord)}>
-            <h3>Fundraiser FAQs</h3>
-            <div className={clsx(styles.accorditem)}>
-              <Accordion
-                question="How can I apply for a fundraiser?"
-                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-              />
-            </div>
-
-            <div className={clsx(styles.accorditem)}>
-              <Accordion
-                question="What dates are available for fundraisers?"
-                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-              />
-            </div>
-
-            <div className={clsx(styles.accorditem)}>
-              <Accordion
-                question="Will the fundraiser get credit from members?"
+                question="Can I add another vehicle to my membership?"
                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
               />
             </div>
