@@ -49,15 +49,10 @@ section.blogs {
       }
       @media (max-width: 497px) {
         grid-template-columns: repeat(1, minmax(0,1fr));
-        margin-left: 23px;
-        margin-right: 23px;
       }
       display: grid;
       .blog {
         margin-top: 151px;
-        @media (max-width: 740px) {
-          margin-top: 100px;
-        }
         display: flex;
         justify-content: center;
         gap: 0.75rem;

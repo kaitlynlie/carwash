@@ -12,6 +12,7 @@ section.blog {
         margin-left: 83px;
         @media (max-width: 1000px) {
         margin-left: 20px;
+        margin-right: 20px;
         z-index: 1;
         }
         h4 {
@@ -36,28 +37,13 @@ section.blog {
 }
 
 section.blogs {
-  margin-right: 83px;
-  @media (max-width: 1000px) {
-    margin-right: 20px;
-  }
   .container {
     .grid {
       gap: 1.75rem;
       grid-template-columns: repeat(3, minmax(0,1fr));
-      @media (max-width: 740px) {
-        grid-template-columns: repeat(2, minmax(0,1fr));
-      }
-      @media (max-width: 497px) {
-        grid-template-columns: repeat(1, minmax(0,1fr));
-        margin-left: 23px;
-        margin-right: 23px;
-      }
       display: grid;
       .blog {
         margin-top: 151px;
-        @media (max-width: 740px) {
-          margin-top: 100px;
-        }
         display: flex;
         justify-content: center;
         gap: 0.75rem;
@@ -65,66 +51,30 @@ section.blogs {
         .text {
           h4 {
             margin-top: 21px;
-            font-size: 28px;
-            @media (max-width: 1000px) {
-              font-size: 24px;
+            font-size: 40px;
+            @media (max-width: 768px) {
+              font-size: 32px;
             }
             font-weight: 700;
             line-height: normal;
           }
           p {
-            margin-top: 11px;
-            font-size: 14px;
-            @media (max-width: 1000px) {
+            margin-top: 21px;
+            @media (max-width: 768px) {
               font-size: 14px;
             }
             color: #626262;
           }
           .button {
-            margin-top: 11px;
-            font-size: 14px;
+            margin-top: 31px;
             font-weight: 600;
             border-radius: 5px;
             background: #184171;
-            width: 100px;
+            width: 150px;
             height: 49px;
             color: white;
           }
         }
-      }
-    }
-    .links {
-      margin-top: 51px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      border: solid;
-      border-color: white;
-      width: 48px;
-      height: 45px;
-      border-radius: 5px;
-      background-color: #184171;
-      color: white;
-      cursor: pointer;
-      }
-      .otherbutton {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      border: solid;
-      border-color: black;
-      width: 48px;
-      height: 45px;
-      border-radius: 5px;
-      background-color: white;
-      color: black;
-      cursor: pointer;
       }
     }
   }

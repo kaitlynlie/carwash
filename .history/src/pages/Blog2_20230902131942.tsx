@@ -1,12 +1,12 @@
 import React from 'react'
 import clsx from 'clsx'
 import { header, blog1 } from '../assets'
-import styles from './Blog.module.scss'
+import styles from './Blog2.module.scss'
 import { Navbar, JoinUs, Footer } from '../components'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-const Blog = () => {
+const Blog2 = () => {
   return (
     <section className={clsx(styles.blog)}>
     <img src={header} className={clsx(styles.aboutimage)} />
@@ -72,52 +72,14 @@ function Blogs() {
             </div>
           </div>
 
-          <div className={clsx(styles.blog)}>
-            <img src={blog1} />
-            <div className={clsx(styles.text)}>
-              <h4>New Member Perk</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-              <button 
-                    type="button"
-                    className={clsx(styles.button)}>
-                    Read More
-              </button>
-            </div>
-          </div>
-
-          <div className={clsx(styles.blog)}>
-            <img src={blog1} />
-            <div className={clsx(styles.text)}>
-              <h4>New Member Perk</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-              <button 
-                    type="button"
-                    className={clsx(styles.button)}>
-                    Read More
-              </button>
-            </div>
-          </div>
-
-          <div className={clsx(styles.blog)}>
-            <img src={blog1} />
-            <div className={clsx(styles.text)}>
-              <h4>New Member Perk</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-              <button 
-                    type="button"
-                    className={clsx(styles.button)}>
-                    Read More
-              </button>
-            </div>
-          </div>
         </div>
         <div className={clsx(styles.links)}>
-          <a>1</a>
-          <Link onClick={openNav} to='/blog2'><a className={clsx(styles.otherbutton)}>2</a></Link>
+        <Link onClick={openNav} to='/blog'><a className={clsx(styles.otherbutton)}>1</a></Link>
+          <a>2</a>
         </div>
       </div>
     </section>
   )
 }
 
-export default Blog
+export default Blog2

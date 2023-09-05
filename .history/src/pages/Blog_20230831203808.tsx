@@ -1,6 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
-import { header, blog1 } from '../assets'
+import { header, search } from '../assets'
 import styles from './Blog.module.scss'
 import { Navbar, JoinUs, Footer } from '../components'
 import { Link } from 'react-router-dom'
@@ -34,7 +34,7 @@ function Blogs() {
       <div className={clsx(styles.container)}>
         <div className={clsx(styles.grid)}>
           <div className={clsx(styles.blog)}>
-            <img src={blog1} />
+            <img src={search} />
             <div className={clsx(styles.text)}>
               <h4>New Member Perk</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
@@ -47,7 +47,7 @@ function Blogs() {
           </div>
 
           <div className={clsx(styles.blog)}>
-            <img src={blog1} />
+            <img src={search} />
             <div className={clsx(styles.text)}>
               <h4>New Member Perk</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
@@ -60,7 +60,7 @@ function Blogs() {
           </div>
 
           <div className={clsx(styles.blog)}>
-            <img src={blog1} />
+            <img src={search} />
             <div className={clsx(styles.text)}>
               <h4>New Member Perk</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
@@ -73,7 +73,7 @@ function Blogs() {
           </div>
 
           <div className={clsx(styles.blog)}>
-            <img src={blog1} />
+            <img src={search} />
             <div className={clsx(styles.text)}>
               <h4>New Member Perk</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
@@ -86,7 +86,7 @@ function Blogs() {
           </div>
 
           <div className={clsx(styles.blog)}>
-            <img src={blog1} />
+            <img src={search} />
             <div className={clsx(styles.text)}>
               <h4>New Member Perk</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
@@ -99,7 +99,7 @@ function Blogs() {
           </div>
 
           <div className={clsx(styles.blog)}>
-            <img src={blog1} />
+            <img src={search} />
             <div className={clsx(styles.text)}>
               <h4>New Member Perk</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>

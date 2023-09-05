@@ -5,7 +5,6 @@ import Membership from "./pages/Membership";
 import FAQ from "./pages/FAQ";
 import Blog from "./pages/Blog";
 import Careers from "./pages/Careers";
-import Blog2 from "./pages/Blog2";
 import { Navbar } from "./components";
 import { Route, Routes } from 'react-router-dom'
 import React from "react";
